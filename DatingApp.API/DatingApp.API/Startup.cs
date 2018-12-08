@@ -50,7 +50,7 @@ namespace DatingApp.API
             // app.UseHttpsRedirection();
 
             // order is very important here 
-            app.UseCors(x=> x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseMvc();
         }
     }
